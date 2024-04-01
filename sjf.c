@@ -24,7 +24,9 @@ void main() {
             }
         }
     }
-  
+    
+    
+    
     wt[0] = 0; 
     tat[0] = bt[0]; 
 
@@ -42,5 +44,5 @@ void main() {
         printf("%d\t%d\t%d\t%d\n", process[i], bt[i], wt[i], tat[i]);
     }
 
-    printf("Average WT = %.2f\nAverage TAT = %.2f", tot_wt / limit, tot_tat / limit);
+    printf("Average WT = %.2f\nAverage TAT = %.2f\n", tot_wt / limit, tot_tat / limit);
 }
